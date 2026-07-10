@@ -1,4 +1,4 @@
-package LiveLock;
+package liveLock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

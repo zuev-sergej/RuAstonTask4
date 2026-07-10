@@ -1,8 +1,8 @@
-package TwoThreads;
+package twoThreads;
 
 public class TwoThreads implements Runnable {
     private static final Object lock = new Object();
-    private static boolean flag = true;
+    private static volatile boolean flag = true;
 
     private final int number;
     private final boolean firstTurn;

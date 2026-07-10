@@ -1,4 +1,4 @@
-package DeadLock;
+package deadLock;
 
 public class DeadLock implements Runnable {
     private final Object lock1;

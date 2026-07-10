@@ -1,4 +1,4 @@
-package DeadLock;
+package deadLock;
 
 public class Main {
     private static final Object LOCK1 = new Object();
